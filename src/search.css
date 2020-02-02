@@ -1,0 +1,9 @@
+.search {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 325px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 50%;
+}

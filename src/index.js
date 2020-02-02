@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import Parent from "./components/parent";
+//import Testing from "./components/playground";
+import "bootstrap/dist/css/bootstrap.css";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// const express = require("express");
+// const app = express();
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// app.listen(3000);
+// app.use(express.static("public"));
+ReactDOM.render(<Parent />, document.querySelector("#root"));
